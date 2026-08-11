@@ -10,16 +10,21 @@ public class Student {
         System.out.println("Student constructor called");
     }
 
+    // parameterized constructor
+    public Student() {
+
+    }
+
     // Methods behaviour
     public void study() {
-        System.out.println(name + "Studying");
+        System.out.println(name + " Studying");
     }
 
     public void sleep() {
-        System.out.println(name + "Sleeping");
+        System.out.println(name + " Sleeping");
     }
 
     public void bunk() {
-        System.out.println(name + "Bunking");
+        System.out.println(name + " Bunking");
     }
 }

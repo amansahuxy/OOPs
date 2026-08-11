@@ -11,5 +11,9 @@ public class App {
         System.out.println(A.age);
         System.out.println(A.id);
         System.out.println(A.nos);
+
+        A.bunk();
+        A.study();
+        A.sleep();
     }
 }
