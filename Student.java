@@ -11,7 +11,7 @@ public class Student {
     }
 
     // parameterized constructor
-    public Student() {
+    public Student(int id, int age, String name, int nos) {
 
     }
 
