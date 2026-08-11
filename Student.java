@@ -5,6 +5,11 @@ public class Student {
     public String name;
     public int nos;
 
+    // deafault ctor
+    public Student() {
+        System.out.println("Student constructor called");
+    }
+
     // Methods behaviour
     public void study() {
         System.out.println(name + "Studying");
