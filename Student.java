@@ -10,4 +10,11 @@ public class Student {
         System.out.println(name + "Studying");
     }
 
+    public void sleep() {
+        System.out.println(name + "Sleeping");
+    }
+
+    public void bunk() {
+        System.out.println(name + "Bunking");
+    }
 }
