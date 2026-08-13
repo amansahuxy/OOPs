@@ -22,11 +22,11 @@ public class Student {
 
     // copy constructor
     public Student(Student srcobj) { // srcobj->A
-        System.out.println("Student parameterized constructor called");
-        this.id = id;
-        this.age = age;
-        this.name = name;
-        this.nos = nos;
+        System.out.println("Student copy constructor called");
+        this.id = srcobj.id;
+        this.age = srcobj.age;
+        this.name = srcobj.name;
+        this.nos = srcobj.nos; //
 
     }
 
