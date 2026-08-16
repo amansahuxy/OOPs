@@ -1,10 +1,12 @@
 public class Student {
     // Attributes
-    public int id;
+    private int id;
     public int age;
     public String name;
     public int nos;
     private String gf;
+
+    public getage
 
     // deafault ctor
     public Student() {
