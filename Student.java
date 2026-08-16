@@ -12,7 +12,7 @@ public class Student {
     }
 
     // parameterized constructor
-    public Student(int id, int age, String name, int nos) {
+    public Student(int id, int age, String name, int nos, String gf) {
         System.out.println("Student parameterized constructor called");
         this.id = id;
         this.age = age;
