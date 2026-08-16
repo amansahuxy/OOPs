@@ -1,7 +1,7 @@
 public class Student {
     // Attributes
     public int id;
-    public int age;
+    private int age;
     public String name;
     public int nos;
     private String gf;
