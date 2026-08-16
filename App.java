@@ -19,13 +19,18 @@ public class App {
 
         Student A = new Student(1, 12, "Rahul", 3, "Tina");
         System.out.println(A.name);
-        System.out.println(A.age);
+        // System.out.println(A.age);
         System.out.println(A.id);
         System.out.println(A.nos);
         System.out.println(A.getgf());
+        System.out.println(A.getAge());
+
+        A.setAge(76);
+        System.out.println(A.getAge());
         A.bunk();
         A.study();
         A.sleep();
+
         // A.gfChatting();
 
         // copy constructor
