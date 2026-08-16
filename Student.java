@@ -46,6 +46,6 @@ public class Student {
     }
 
     private void gfChatting() {
-
+        System.out.println(name + " gfChatting");
     }
 }
