@@ -18,6 +18,7 @@ public class Student {
         this.age = age;
         this.name = name;
         this.nos = nos;
+        this.gf = gf;
 
     }
 
