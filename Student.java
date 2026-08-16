@@ -10,6 +10,10 @@ public class Student {
         return this.gf;
     }
 
+    public int getAge() {
+        return this.age;
+    }
+
     // deafault ctor
     public Student() {
         System.out.println("Student constructor called");
