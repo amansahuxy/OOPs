@@ -44,4 +44,8 @@ public class Student {
     public void bunk() {
         System.out.println(name + " Bunking");
     }
+
+    private void gfChatting() {
+
+    }
 }
