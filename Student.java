@@ -14,6 +14,10 @@ public class Student {
         return this.age;
     }
 
+    public void setAge(int a) {
+        this.age = a;
+    }
+
     // deafault ctor
     public Student() {
         System.out.println("Student constructor called");
