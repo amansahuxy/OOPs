@@ -15,7 +15,11 @@ public class Student {
     }
 
     public void setAge(int a) {
-        this.age = a;
+        // extra layer of authentication
+        if (a < 100)
+            this.age = a;
+
+        return;
     }
 
     // deafault ctor
