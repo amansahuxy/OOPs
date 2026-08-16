@@ -22,11 +22,11 @@ public class App {
         System.out.println(A.age);
         System.out.println(A.id);
         System.out.println(A.nos);
-        System.out.println(A.gf);
+        System.out.println(A.getgf());
         A.bunk();
         A.study();
         A.sleep();
-        A.gfChatting();
+        // A.gfChatting();
 
         // copy constructor
         // Student B = new Student(A);
