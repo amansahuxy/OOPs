@@ -17,7 +17,7 @@ public class App {
 
         // parameterized constructor called
 
-        Student A = new Student(1, 12, "Rahul", 3);
+        Student A = new Student(1, 12, "Rahul", 3, "Tina");
         System.out.println(A.name);
         System.out.println(A.age);
         System.out.println(A.id);
