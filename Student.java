@@ -4,6 +4,7 @@ public class Student {
     public int age;
     public String name;
     public int nos;
+    private String gf;
 
     // deafault ctor
     public Student() {
@@ -26,7 +27,7 @@ public class Student {
         this.id = srcobj.id;
         this.age = srcobj.age;
         this.name = srcobj.name;
-        this.nos = srcobj.nos; //
+        this.nos = srcobj.nos;
 
     }
 
