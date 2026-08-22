@@ -61,7 +61,7 @@ public class Student {
         System.out.println(name + " Bunking");
     }
 
-    private void gfChatting() {
-        System.out.println(name + " gfChatting");
-    }
+    // private void gfChatting() {
+    // System.out.println(name + " gfChatting");
+    // }
 }

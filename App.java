@@ -25,7 +25,7 @@ public class App {
         System.out.println(A.getgf());
         System.out.println(A.getAge());
 
-        A.setAge(76);
+        A.setAge(71);
         System.out.println(A.getAge());
         A.bunk();
         A.study();
