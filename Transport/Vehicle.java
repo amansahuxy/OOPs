@@ -1,21 +1,20 @@
+package Transport;
 
 public class Vehicle {
-
     public String name;
     public String model;
-    public int noOfTyers;
+    public int noOfTyres;
 
     Vehicle() {
         this.name = "";
         this.model = "";
-        this.noOfTyers = -1;
+        this.noOfTyres = -1;
     }
 
-    Vehicle(String name, String model, int noOfTyers) {
+    Vehicle(String name, String model, int noOfTyres) {
         this.name = name;
         this.model = model;
-        this.noOfTyers = noOfTyers;
-
+        this.noOfTyres = noOfTyres;
     }
 
     void startEngine() {
