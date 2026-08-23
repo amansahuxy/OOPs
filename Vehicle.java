@@ -5,7 +5,10 @@ public class Vehicle {
     public String model;
     public int noOfTyers;
 
-    Vehicle(String name, String model, int noOfTyres) {
+    Vehicle(String name, String model, int noOfTyers) {
+        this.name = name;
+        this.model = model;
+        this.noOfTyers = noOfTyers;
 
     }
 }
