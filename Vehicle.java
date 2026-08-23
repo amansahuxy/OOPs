@@ -11,4 +11,12 @@ public class Vehicle {
         this.noOfTyers = noOfTyers;
 
     }
+
+    void startEngine() {
+        System.out.println("Engine is starting");
+    }
+
+    void stopEngine() {
+
+    }
 }
